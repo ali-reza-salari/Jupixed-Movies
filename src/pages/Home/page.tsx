@@ -2,7 +2,7 @@ import HeroSection from "../../components/common/HeroSection";
 
 export default function page() {
     return (
-        <div >
+        <div>
             <HeroSection />
             this is Home page
         </div>
