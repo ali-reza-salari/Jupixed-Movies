@@ -17,7 +17,7 @@ export default function HeroSlider() {
         {
             heroSectionSlidesData.map(item => (
                 <SwiperSlide key={item.id}>
-                    <Slides imgSrc={item.img} />
+                    <Slides image={item.image} logo={item.logo} />
                 </SwiperSlide>
             ))
         }
