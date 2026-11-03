@@ -2,10 +2,10 @@ import {Outlet} from "react-router";
 
 export default function AppLayout() {
     return (
-        <div>
-            <div>
+        <section id={"root"} className={`dark min-w-dvw min-h-dvh`}>
+            <div className={``}>
                 <Outlet />
             </div>
-        </div>
+        </section>
     )
 }

@@ -1,0 +1,38 @@
+:root {
+    --primary: #C1121F;
+    --secondary: #FF4D4D;
+    --white: #F2F2F2;
+    --dark: #1F1F24;
+    --black: #0B0B0D;
+}
+.bg-primary {
+    background-color: var(--primary);
+}
+.bg-secondary {
+    background-color: var(--secondary);
+}
+.bg_white {
+    background-color: var(--white);
+}
+.bg_dark {
+    background-color: var(--dark);
+}
+.bg_black {
+    background-color: var(--black);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+.text-secondary {
+    color: var(--secondary);
+}
+.text_white {
+    color: var(--white);
+}
+.text_dark {
+    color: var(--dark);
+}
+.text_black {
+    color: var(--black);
+}

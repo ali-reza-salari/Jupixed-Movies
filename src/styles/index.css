@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@import "./colors.css";
+@import "./theme-config.css";
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+
+@utility flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
