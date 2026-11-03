@@ -1,9 +1,9 @@
-import HeroSection from "../../components/common/HeroSection";
+import HeroSlider from "../../components/common/HeroSlider/HeroSlider.tsx";
 
 export default function page() {
     return (
         <div>
-            <HeroSection />
+            <HeroSlider />
             this is Home page
         </div>
     )
